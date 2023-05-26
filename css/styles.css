@@ -98,6 +98,11 @@ header {
 .work-experience {
   background: #a1c6d7;
 }
+.job-item {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 20px;
+}
 
 /* Education
 -------------------------------------------------------*/
@@ -117,4 +122,5 @@ footer {
 }
 .contact-list a {
   padding: 15px;
+  display: inline-block;
 }
