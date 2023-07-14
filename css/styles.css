@@ -13,11 +13,13 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 html {
   box-sizing: border-box;
 }
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #343434;
   margin: 0;
   padding: 0;
@@ -40,8 +42,9 @@ h1 {
 h2 {
   font-size: 45px;
 }
-h1, h2 {
-  font-family: 'Caveat', cursive;
+h1,
+h2 {
+  font-family: "Caveat", cursive;
   font-weight: 400;
   margin: 0;
 }
@@ -58,6 +61,13 @@ h3 {
 }
 .item-details h3 ~ p {
   margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
 }
 
 /* Profile
@@ -91,8 +101,6 @@ header {
 
 .project-item {
   overflow: hidden;
-  border-bottom: 1px dashed #343434;
-  padding: 25px 0;
 }
 .project-item img {
   float: left;
