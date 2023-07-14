@@ -49,7 +49,8 @@ h2 {
   margin: 0;
 }
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
+  width: 85%;
   margin: 0 auto;
   padding: 60px 0;
 }
@@ -123,6 +124,15 @@ header {
 
 /* Education
 -------------------------------------------------------*/
+
+.education {
+  background-image: url('../images/education-background.jpg');
+  background-size: cover;
+  background-position: top right;
+}
+.education p {
+  width: 80%;
+}
 
 /* Contact Info
 -------------------------------------------------------*/
